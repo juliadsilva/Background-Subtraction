@@ -21,11 +21,12 @@
 ### Sobre
   Subtração de fundo (BS) é uma técnica comum e amplamente usada para gerar uma máscara de primeiro plano (ou seja, uma imagem binária contendo os pixels pertencentes a objetos em movimento na cena) usando câmeras estáticas.
   Como o próprio nome sugere, o BS calcula a máscara de primeiro plano realizando uma subtração entre o quadro atual e um modelo de fundo, contendo a parte estática da cena ou, mais em geral, tudo o que pode ser considerado como fundo dadas as características da cena observada.
-  Vários algoritmos foram introduzidos para este propósito. OpenCV implementou três desses algoritmos.
+  Vários algoritmos foram introduzidos para este propósito: 
   
 - Background Subtractor MOG
 - Background Subtractor MOG2
 - Background Subtractor GMG
+- Grab Cut
 
 ### Pré-requisitos
 
@@ -72,11 +73,25 @@ Para que o projeto funcione normalmente é necessário que seja instalado:
 
     # Acesse a pasta do projeto no seu terminal/cmd
     $ cd BackgroundSubtractorGMG
+    
     # Execute a aplicação
     $ python gmg.py
    ```
 ---
 
+#### Grab Cut
+
+   ```bash
+    # Clone este repositório
+    $ git clone 
+
+    # Acesse a pasta do projeto no seu terminal/cmd
+    $ cd GrabCut
+    
+    # Execute a aplicação
+    $ python grabcut.py
+   ```
+---
 ## Autor
 <a href="https://github.com/juliadsilva">Julia Daniele Moreira da Silva </a>
  
