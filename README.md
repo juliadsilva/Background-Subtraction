@@ -9,7 +9,7 @@
 </p>
 
 <h1 align="center">Subtração de Fundo em Imagens</h1>
-<p align="center">Subtração de fundo ultilizando os métodos de subtração de fundo disponíveis no OpenCV.</p>
+<p align="center">Subtração de fundo ultilizando os métodos disponíveis no OpenCV.</p>
 
 <p align="center">
  <a href="#sobre">Sobre</a> •
